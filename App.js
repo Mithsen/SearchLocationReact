@@ -1,10 +1,9 @@
-import { View, Text } from 'react-native'
 import React from 'react'
-import { Counter } from './src/screens/Counter'
+import { LocationSearchScreen } from './src/screens/LocationSearchScreen'
 
 const App = () => {
   return (
-    <Counter/>
+    <LocationSearchScreen/>
   )
 }
 
